@@ -17,8 +17,8 @@ Improvements:  <br>
 #4 Tree check paradigm: saving the rules as a tree structure so, that the same checks are not performed multiple times for every packets. That would invovle saving rules in a graphical manner. The root node will check for 'direction', then the next layer checks for 'protocol', and similary flowing down to the leaf nodes, each containing ip address rules.  <br> This will entail heavy pre-processing of the rules fetched from the csv file for faster processing of each packet.
 
 
-
-
+<br>
+firewall.py contains the code, the .ipynb file was created for easier debugging.
                             
 
 
