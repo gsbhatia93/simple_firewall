@@ -4,9 +4,9 @@ This code sample is for creating basic firewall structure in Python. At the core
 a set of rules, input as a CSV file.
 
 After the initialization, we can begin processing packets. Packets are checked for 4 different parameter. 
-#1 Direction
-#2 protocol
-#3 port is within range or not
+#1 Direction <br>
+#2 protocol  <br>
+#3 port is within range or not. <br>
 #4 ipv4 address is within range or not
 To server the purpose I have created a function, access_packets that checks these values. Helper functions like check_port and check_ip are also created to help with the same.
 
