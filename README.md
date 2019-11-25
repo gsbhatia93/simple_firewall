@@ -9,7 +9,7 @@ After the initialization, we can begin processing packets. Packets are checked f
 #3 port is within range or not. <br>
 #4 ipv4 address is within range or not <br>
 To server the purpose I have created a function, access_packets that checks these values. Helper functions like check_port and check_ip are also created to help with the same.
- <br>
+ <br> <br> <br>
 Improvements:  <br>
 #1 Multithreading to check input packet for rule - each thread picks up a batch of rules and checks the packet to the rules. If it passes either of the rules, then we let the packet go. <br>
 #2 Space optimization of doing pre-processing before hand. <br>
